@@ -48,7 +48,7 @@ grid.forEach(grid => {
 })
 
 const handleClick = (e) => {
-    console.log(e.target)
+        console.log(e.target)
 }
 
 keys.forEach(key => {
