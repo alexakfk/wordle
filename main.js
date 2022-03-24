@@ -32,23 +32,24 @@ const keys = [
     '«',
 ]
 
-const grid = [
+/*const grid = [
     '','','','','',
     '','','','','',
     '','','','','',
     '','','','','',
     '','','','','',
     '','','','','',
-]
+]*/
 
-grid.forEach(grid => {
+/*grid.forEach(grid => {
     const gridElement = document.createElement('div')
     gridElement.setAttribute('id', grid)
     tileDisplay.append(gridElement)
-})
+})*/
 
 const handleClick = (e) => {
-        console.log(e.target)
+    console.log(e.target)
+    document.getElementById("grid").innerHTML = e.target;
 }
 
 keys.forEach(key => {
