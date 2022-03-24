@@ -57,9 +57,11 @@ body {
     flex-wrap: wrap;
 }
 
-.tileContainer div {
+.tileContainer #grid {
     width: 62px;
     height: 62px;;
     border: 1px solid #818384;
     margin: 4px;
+    display: flex;
+
 }
